@@ -5,6 +5,9 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_platform_orb","path":"objects/obj_platform_orb/obj_platform_orb.yy",},"eventNum":0,"eventType":4,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -26,9 +29,14 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"variable_name","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
+  ],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_player",
+    "path": "sprites/spr_player/spr_player.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_platform_base",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -25,7 +27,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spr_platform",
+    "path": "sprites/Spr_platform/Spr_platform.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
