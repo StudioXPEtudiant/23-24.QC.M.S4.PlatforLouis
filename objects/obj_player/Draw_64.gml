@@ -28,11 +28,3 @@ draw_text(0, 40, string("nb blue ") + string(platform_blue));
 /// @DnDArgument : "caption" ""nb orbs total ""
 /// @DnDArgument : "var" "platform_orbs"
 draw_text(0, 60, string("nb orbs total ") + string(platform_orbs));
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
-/// @DnDVersion : 1
-/// @DnDHash : 1325D751
-/// @DnDArgument : "y" "100"
-/// @DnDArgument : "sprite" "spr_orb_gauge"
-/// @DnDSaveInfo : "sprite" "spr_orb_gauge"
-draw_sprite(spr_orb_gauge, 0, 0, 100);
