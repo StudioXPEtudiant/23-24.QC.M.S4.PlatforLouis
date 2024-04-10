@@ -21,8 +21,10 @@ jump_nb = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 00977873
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "var" "platform_orbs"
 /// @DnDArgument : "var_1" "platform_blue"
+/// @DnDArgument : "var_2" "platform_red"
 platform_orbs = 0;
 platform_blue = 0;
+platform_red = 0;
