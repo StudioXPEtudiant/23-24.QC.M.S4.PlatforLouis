@@ -1,8 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 165EBB37
+/// @DnDArgument : "expr" "2"
 /// @DnDArgument : "var" "key"
-key = 0;
+key = 2;
 
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1

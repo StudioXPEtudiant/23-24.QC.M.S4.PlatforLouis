@@ -7,6 +7,16 @@
 /// @DnDSaveInfo : "objectid" "obj_platform_blue"
 instance_create_layer(obj_player.x, obj_player.y+100, "Instances", obj_platform_blue);
 
+/// @DnDAction : YoYo Games.Particles.Effect
+/// @DnDVersion : 1
+/// @DnDHash : 2A8BA996
+/// @DnDArgument : "x" "obj_player.x"
+/// @DnDArgument : "y" "obj_player.y+100"
+/// @DnDArgument : "type" "7"
+/// @DnDArgument : "size" "1"
+/// @DnDArgument : "color" "$FFFFE500"
+effect_create_below(7, obj_player.x, obj_player.y+100, 1, $FFFFE500 & $ffffff);
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 09F8DC44
